@@ -29,6 +29,64 @@
 }
 
 @media (max-width: 1023px) {
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: #fff;
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile-menu.active {
+    display: flex;
+  }
+  .mobile-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  .mobile-nav a {
+    font-size: 24px;
+    color: #292830;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .mobile-menu__close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-menu__close span {
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    background: #292830;
+    border-radius: 2px;
+  }
+  .mobile-menu__close span:first-child {
+    transform: rotate(45deg);
+  }
+  .mobile-menu__close span:last-child {
+    transform: rotate(-45deg);
+  }
+}
+
+@media (max-width: 1023px) {
   .fs-large {
     font-size: 52px;
   }
@@ -37,7 +95,11 @@
     font-size: 21px;
   }
 
-  header > button {
+  .burger {
+    display: flex;
+  }
+
+  .nav {
     display: none;
   }
 
@@ -82,6 +144,7 @@
   }
 
   .plans-cards {
+    flex-direction: column;
     width: 95%;
   }
 
@@ -103,7 +166,81 @@
 }
 
 @media (max-width: 767px) {
-  .nav-list {
+  .header-request {
     display: none;
+  }
+
+  .burger-request {
+    display: block;
+  }
+
+  .banner-down-title {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .banner-down-dsc {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+
+  .banner-down-img-div {
+    justify-content: center;
+  }
+
+  .banner-down-img-div > img {
+    display: none;
+  }
+
+  .banner-down-info {
+    padding-top: 0;
+  }
+  .banner-down-content {
+    padding: 50px 0;
+  }
+
+  .footer-final-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .privacy,
+  .copyright {
+    display: none;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .social-links img {
+    width: 60px;
+  }
+
+  .column-content {
+    flex-direction: column-reverse;
+  }
+  .column-info {
+    width: 100%;
+  }
+  .product-info {
+    flex-direction: column;
+  }
+
+  .plans-info h2 {
+    font-size: 62px;
+  }
+
+  .banner-blob-left,
+  .banner-blob-right,
+  .banner-img,
+  .brands {
+    display: none;
+  }
+
+  .banner-section {
+    padding-top: 80px;
   }
 }
