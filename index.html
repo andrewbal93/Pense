@@ -9,25 +9,561 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <a href="#!" class="logo">Logo</a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#!" class="nav-link">Home</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header class="header container flex space-between">
+      <a href="#!" class="logo"
+        ><img src="./img/logo.svg" alt="logo-img" class="logo-img"
+      /></a>
+      <nav class="nav">
+        <ul class="nav-list flex">
+          <li class="nav-item">
+            <a href="#!" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#!" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#!" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#!" class="nav-link">Feedback</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn cta-btn">Request a demo</button>
     </header>
 
-    <section class="">
-      <div class="container"></div>
+    <section class="section hero-section column-sct-padding">
+      <div class="column-content container flex">
+        <div class="column-info flex column align-start space-between">
+          <h1 class="fs-large fw-bold">Track your Expenses to Save Money</h1>
+
+          <p class="hero-sub-ttl fs-sub-ttl light-color">
+            Helps you to organize your income and expenses
+          </p>
+
+          <div class="flex hero-cta-block">
+            <button class="btn hero-btn flex bg-main white-color fs-sub-ttl">
+              <p>Try free demo</p>
+              <img src="./img/arr/arrow-dwn-white.svg" alt="arrow-dwn" />
+            </button>
+            <p class="fs-sub-ttl light-color">— Web, iOs and Android</p>
+          </div>
+        </div>
+
+        <div class="column-img-div">
+          <img
+            src="./img/hero/hero-img.svg"
+            alt="hero-img"
+            class="column-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section banner-section flex column">
+      <div class="banner-content bg-main full-width flex relative">
+        <img
+        src="./img/banner/blob-left.svg"
+        alt=""
+        class="banner-blob-left absolute"
+        />
+        <img
+        src="./img/banner/blob-right.svg"
+        alt=""
+        class="banner-blob-right absolute"
+        />
+        <img
+          src="./img/product/product-img.jpg"
+          alt="banner-img"
+          class="banner-img z-top"
+        />
+      </div>
+      <img
+        src="./img/banner/product-brands.svg"
+        alt="brands-img"
+        class="brands"
+      />
+    </section>
+
+    <section class="section support-section column-sct-padding">
+      <div class="column-content container flex">
+        <div class="column-info flex column align-start space-between">
+          <p class=" fs-sub-ttl light-color uppercase">ALWALYS ONLINE</p>
+          <h2 class="fs-large fw-bold">Real-time support with cloud</h2>
+
+          <p class="info-sub-ttl fs-sub-ttl light-color">
+            Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
+            accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget
+            ut.
+          </p>
+
+          <div class="more-div">
+            <a href="#!" class="more-link main-color fs-sub-ttl flex"
+              ><p>Learn more</p>
+              <img src="./img/arr/big-arrow-right-orange.svg" alt="more-link"
+            /></a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img
+            src="./img/feature/feature-1.svg"
+            alt="hero-img"
+            class="hero-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section family-section column-sct-padding">
+      <div class="column-content container flex flex-reverse space-between">
+        <div class="column-info flex column align-start space-between">
+          <p class="fs-sub-ttl light-color uppercase">free some cost</p>
+          <h2 class="fs-large fw-bold">Save cost for you and family</h2>
+          <p class="info-sub-ttl fs-sub-ttl light-color">
+            Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
+            accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget
+            ut.
+          </p>
+          <div class="more-div">
+            <a href="#!" class="more-link main-color fs-sub-ttl flex"
+              ><p>Learn more</p>
+              <img src="./img/arr/big-arrow-right-orange.svg" alt="more-link"
+            /></a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img
+            src="./img/feature/feature-2.svg"
+            alt="hero-img"
+            class="hero-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section anytime-section column-sct-padding">
+      <div class="column-content container flex space-between">
+        <div class="info-sub-ttl column-info flex column align-start space-between">
+          <p class="fs-sub-ttl light-color uppercase">Use anytime</p>
+          <h2 class="fs-large fw-bold">Use anytime when you need</h2>
+          <p class="fs-sub-ttl light-color">
+            Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
+            accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget
+            ut.
+          </p>
+          <div class="more-div">
+            <a href="#!" class="more-link main-color fs-sub-ttl flex"
+              ><p>Learn more</p>
+              <img src="./img/arr/big-arrow-right-orange.svg" alt="more-link"
+            /></a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img
+            src="./img/feature/feature-3.svg"
+            alt="hero-img"
+            class="hero-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section product-section">
+      <div class="product-content container flex column">
+        <div class="product-info flex space-between">
+          <h2 class="fs-large fw-bold">The Product we work with.</h2>
+          <p class="fs-sub-ttl light-color">
+            Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
+            accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget
+            ut.
+          </p>
+        </div>
+        <div class="product-cards flex space-between">
+          <div class="product-card-item flex column text-center">
+            <img
+              src="./img/product-features/product-features-1.svg"
+              alt="product-img"
+              class="product-img"
+            />
+            <div class="product-card-dsc flex column space-between">
+              <h3>Cross platform</h3>
+              <p class="light-color">
+                Elit esse cillum dolore eu fugiat nulla pariatur
+              </p>
+            </div>
+          </div>
+          <div class="product-card-item flex column text-center">
+            <img
+              src="./img/product-features/product-features-2.svg"
+              alt="product-img"
+              class="product-img"
+            />
+            <div class="product-card-dsc flex column space-between">
+              <h3>Cloud server</h3>
+              <p class="light-color">
+                Elit esse cillum dolore eu fugiat nulla pariatur
+              </p>
+            </div>
+            <a href="#!">
+              <img
+                src="./img/arr/arrow-right-black.svg"
+                alt="product-card-arrow"
+                class="product-card-arrow"
+              />
+            </a>
+          </div>
+          <div class="product-card-item flex column text-center">
+            <img
+              src="./img/product-features/product-features-3.svg"
+              alt="product-img"
+              class="product-img"
+            />
+            <div class="product-card-dsc flex column space-between">
+              <h3>Pure Javascript</h3>
+              <p class="light-color">
+                Elit esse cillum dolore eu fugiat nulla pariatur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section plans-section">
+      <div class="plans-content container flex column">
+        <div class="plans-info flex space-between">
+          <h2 class="fs-large fw-bold">Choose your flexible plan.</h2>
+        </div>
+        <div class="plans-cards flex space-between">
+          <div class="plans-card-item flex column align-start justify-start">
+            <div class="plan-card-content flex column align-start">
+              <img
+                src="./img/choose-plan/choose-plan-1.svg"
+                alt="plans-img"
+                class="plans-img"
+              />
+              <h3>Starter Plan</h3>
+              <div class="plan-checks flex align-start column">
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Store unlimited data</p>
+                </div>
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Export to pdf, xls, csv</p>
+                </div>
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Cloud server support</p>
+                </div>
+              </div>
+              <div class="plan-price-div flex column align-start">
+                <p class="plan-price fw-semibold">
+                  $9.99/<span class="fw-light">year</span>
+                </p>
+                <p class="plan-price-dsc">up to 3 user + 1.99 per user</p>
+              </div>
+            </div>
+            <button class="plan-btn btn cta-btn-white flex fs-sub-ttl">
+              <p>Get this</p>
+              <img src="./img/arr/arrow-right-orange.svg" alt="arrow-dwn" />
+            </button>
+          </div>
+          <div class="plans-card-item flex column align-start justify-start">
+            <div class="plan-card-content flex column align-start">
+              <img
+                src="./img/choose-plan/choose-plan-2.svg"
+                alt="plans-img"
+                class="plans-img"
+              />
+              <h3>Silver Plan</h3>
+              <div class="plan-checks flex align-start column">
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Store unlimited data</p>
+                </div>
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Export to pdf, xls, csv</p>
+                </div>
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Cloud server support</p>
+                </div>
+              </div>
+              <div class="plan-price-div flex column align-start">
+                <p class="plan-price">$19.99/<span>year</span></p>
+                <p class="plan-price-dsc">up to 3 user + 1.99 per user</p>
+              </div>
+            </div>
+            <button class="plan-btn btn cta-btn flex fs-sub-ttl">
+              <p>Get this</p>
+              <img src="./img/arr/arrow-right-white.svg" alt="arrow-dwn" />
+            </button>
+          </div>
+          <div class="plans-card-item flex column align-start justify-start">
+            <div class="plan-card-content flex column align-start">
+              <img
+                src="./img/choose-plan/choose-plan-3.svg"
+                alt="plans-img"
+                class="plans-img"
+              />
+              <h3>Diamond Plan</h3>
+              <div class="plan-checks flex align-start column">
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Store unlimited data</p>
+                </div>
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Export to pdf, xls, csv</p>
+                </div>
+                <div class="plan-check-item flex">
+                  <img
+                    src="./img/arr/check-ico.svg"
+                    alt="check-img"
+                    class="check-img"
+                  />
+                  <p class="check-dsc">Cloud server support</p>
+                </div>
+              </div>
+              <div class="plan-price-div flex column align-start">
+                <p class="plan-price">$29.99/<span>year</span></p>
+                <p class="plan-price-dsc">up to 3 user + 1.99 per user</p>
+              </div>
+            </div>
+            <button class="plan-btn btn cta-btn-white flex fs-sub-ttl">
+              <p>Get this</p>
+              <img src="./img/arr/arrow-right-orange.svg" alt="arrow-dwn" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wishers-section">
+      <div class="wishers-content container flex column">
+        <h2 class="fs-large fw-bold text-center">
+          We have millions of best wishers
+        </h2>
+        <div class="slider-wrapper container">
+          
+          <div class="slider-track flex">
+            <div class="slider-card flex column align-start">
+              <div class="slider-plank w-100"></div>
+              <p class="slider-card-dsc">
+                Eleifend fames amet, fames enim. Ullamcorper pellentesque ac
+                volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros
+                pretium felis massa mauris, aliquam congue.
+              </p>
+              <div class="slider-card-whisher flex">
+                <img
+                src="./img/best-whishers/wisher-1.png"
+                alt="whisher-photo"
+                  class="whisher-photo"
+                />
+                <p class="whisher-name fw-bold">
+                  Cameron Williamson, <span class="light-color">CEO</span>
+                </p>
+              </div>
+            </div>
+            <div class="slider-card flex column align-start">
+              <div class="slider-plank w-100"></div>
+              <p class="slider-card-dsc">
+                Eleifend fames amet, fames enim. Ullamcorper pellentesque ac
+                volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros
+                pretium felis massa mauris, aliquam congue.
+              </p>
+              <div class="slider-card-whisher flex">
+                <img
+                  src="./img/best-whishers/wisher-1.png"
+                  alt="whisher-photo"
+                  class="whisher-photo"
+                />
+                <p class="whisher-name fw-bold">
+                  Cameron Williamson, <span class="light-color">CEO</span>
+                </p>
+              </div>
+            </div>
+            <div class="slider-card flex column align-start">
+              <div class="slider-plank w-100"></div>
+              <p class="slider-card-dsc">
+                Eleifend fames amet, fames enim. Ullamcorper pellentesque ac
+                volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros
+                pretium felis massa mauris, aliquam congue.
+              </p>
+              <div class="slider-card-whisher flex">
+                <img
+                  src="./img/best-whishers/wisher-1.png"
+                  alt="whisher-photo"
+                  class="whisher-photo"
+                />
+                <p class="whisher-name fw-bold">
+                  Cameron Williamson, <span class="light-color">CEO</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 
+    
+    https://codesandbox.io/p/sandbox/6mpl7j?file=%2Findex.html%3A9%2C3-10%2C1
+     
+    https://swiperjs.com/demos
+
+    https://swiperjs.com/get-started#what-next
+    
+    -->
+
+
+    <section class="section banner-down-section flex column">
+      <div class="banner-down-content bg-main full-width flex column relative">
+       
+        <img
+        src="./img/banner/blob-left.svg"
+        alt=""
+        class="banner-blob-left absolute"
+        />
+        <img
+        src="./img/banner/blob-right.svg"
+        alt=""
+        class="banner-blob-right absolute"
+        />
+        
+        <div class="banner-down-info flex column white-color text-center">
+          <h2 class="banner-down-title fw-bold">
+            20M+ downloaded from 32 diffrent countires
+          </h2>
+          <p class="banner-down-dsc">Try demo for 7 days with full features.</p>
+        </div>
+        <div class="banner-down-img-div flex align-start w-100">
+          <img
+            src="./img/banner/banner-img-left.svg"
+            alt="banner-img-left"
+            class="banner-down-img-left z-top"
+          />
+          <button class="btn cta-btn-white flex fs-sub-ttl">
+            <p>Try free demo</p>
+            <img src="./img/arr/arrow-dwn-orange.svg" alt="arrow-dwn" />
+          </button>
+          <img
+            src="./img/banner/banner-img-right.svg"
+            alt="banner-img-right"
+            class="banner-down-img-right z-top"
+          />
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-      <div class="container"></div>
+      <div class="footer-content flex column container">
+        <div class="footer-main-block flex space-between">
+          <div class="footer-logo flex column align-start">
+            <img src="./img/logo.svg" alt="logo-img" class="logo-img" />
+          </div>
+          <div class="footer-links flex column">
+            <p class="footer-links-title footer-title uppercase">Links</p>
+            <div class="footer-items flex column align-start">
+              <p class="footer-links-item">Home</p>
+              <p class="footer-links-item">About us</p>
+              <p class="footer-links-item">Careers</p>
+              <p class="footer-links-item">Pricing</p>
+              <p class="footer-links-item">Features</p>
+              <p class="footer-links-item">Blog</p>
+            </div>
+          </div>
+          <div class="footer-links flex column">
+            <p class="footer-legal-title footer-title uppercase">Legal</p>
+            <div class="footer-items flex column align-start">
+              <p class="footer-legal-item">Terms of use</p>
+              <p class="footer-legal-item">Terms of conditions</p>
+              <p class="footer-legal-item">Privecy policy</p>
+              <p class="footer-legal-item">Cookie policy</p>
+            </div>
+          </div>
+          <div class="footer-form flex column">
+            <p class="footer-form-title footer-title">Newsletter</p>
+            <p class="footer-form-slogan light-color">
+              Over 25000 people have subscribed
+            </p>
+            <div class="email-form">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Enter your email"
+                aria-label="Email"
+              />
+              <button class="btn cta-btn email-btn medium">Subscribe</button>
+            </div>
+            <p class="footer-form-dsc light-color">
+              We don’t sell your email and spam
+            </p>
+          </div>
+        </div>
+        <div class="footer-final-row flex space-between">
+          <div class="privacy flex space-between">
+            <p class="privacy-item">Privacy & Terms</p>
+            <p class="privacy-item">Contact us</p>
+          </div>
+          <p class="copyright">Copyright @ 2022 xpence</p>
+          <div class="social-links">
+            <a href="#!"
+              ><img
+                src="./img/footer/footer-social-facebook.svg"
+                alt="social-link"
+            /></a>
+            <a href="#!"
+              ><img
+                src="./img/footer/footer-social-twitter.svg"
+                alt="social-link"
+            /></a>
+            <a href="#!"
+              ><img
+                src="./img/footer/footer-social-linkedin.svg"
+                alt="social-link"
+            /></a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="./js/main.js"></script>

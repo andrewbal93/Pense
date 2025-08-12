@@ -1,0 +1,109 @@
+@media (max-width: 1279px) {
+  .column-sct-padding {
+    padding-top: 100px;
+  }
+
+  .brands {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 1139px) {
+  .column-sct-padding {
+    padding-top: 80px;
+  }
+
+  .fs-large {
+    font-size: 72px;
+  }
+
+  .fs-sub-ttl {
+    font-size: 21px;
+  }
+
+  .brands {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .fs-large {
+    font-size: 52px;
+  }
+
+  .fs-sub-ttl {
+    font-size: 21px;
+  }
+
+  header > button {
+    display: none;
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+
+  .hero-sub-ttl {
+    margin-top: 0;
+  }
+
+  .hero-cta-block {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .banner-content {
+    padding-top: 60px;
+  }
+
+  .brands {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .product-info {
+    gap: 40px;
+  }
+
+  .product-cards {
+    flex-direction: column;
+  }
+
+  .plans-card-item {
+    align-items: center;
+    padding-left: 0;
+    width: auto;
+  }
+
+  .plan-card-content {
+    align-items: center;
+  }
+
+  .plans-cards {
+    width: 95%;
+  }
+
+  .slider-track {
+    flex-direction: column;
+  }
+
+  .banner-down-img-div button {
+    margin-top: 25px;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .column-sct-padding {
+    padding: 50px 0 10px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+}
