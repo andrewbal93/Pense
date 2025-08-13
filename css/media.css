@@ -29,6 +29,26 @@
 }
 
 @media (max-width: 1023px) {
+  /* Общие классы */
+  .fs-large {
+    font-size: 52px;
+  }
+  .fs-sub-ttl {
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 52px;
+  }
+
+  /* HEADER */
+  .burger {
+    display: flex;
+  }
+  .nav {
+    display: none;
+  }
+
+  /* MOBILE MENU */
   .mobile-menu {
     display: none;
     position: fixed;
@@ -84,141 +104,87 @@
   .mobile-menu__close span:last-child {
     transform: rotate(-45deg);
   }
-}
 
-@media (max-width: 1023px) {
-  .fs-large {
-    font-size: 52px;
-  }
-
-  .fs-sub-ttl {
-    font-size: 21px;
-  }
-
-  .burger {
-    display: flex;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  h1 {
-    font-size: 52px;
-  }
-
+  /* HERO SECTION */
   .hero-sub-ttl {
     margin-top: 0;
   }
-
   .hero-cta-block {
     flex-direction: column;
     margin-top: 10px;
   }
 
+  /* BANNER SECTION */
   .banner-content {
     padding-top: 60px;
   }
-
   .brands {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
+  /* PRODUCT SECTION */
   .product-info {
     gap: 40px;
   }
-
   .product-cards {
     flex-direction: column;
   }
 
+  /* PLANS SECTION */
   .plans-card-item {
     align-items: center;
-    padding-left: 0;
+    padding: 0;
     width: auto;
   }
-
   .plan-card-content {
     align-items: center;
   }
-
   .plans-cards {
     flex-direction: column;
     width: 95%;
   }
 
+  /* WISHERS SECTION */
   .slider-track {
     flex-direction: column;
   }
 
+  /* BANNER DOWN SECTION */
   .banner-down-img-div button {
     margin-top: 25px;
   }
 
+  /* FOOTER */
   .footer-links {
     display: none;
   }
-
   .column-sct-padding {
     padding: 50px 0 10px 0;
   }
 }
 
 @media (max-width: 767px) {
+  /* HEADER */
   .header-request {
     display: none;
   }
-
   .burger-request {
     display: block;
   }
 
-  .banner-down-title {
-    font-size: 48px;
-    font-weight: 600;
+  /* BANNER SECTION */
+  .banner-section {
+    padding-top: 80px;
   }
-  .banner-down-dsc {
-    font-size: 26px;
-    font-weight: 500;
-    margin-top: 24px;
-  }
-
-  .banner-down-img-div {
-    justify-content: center;
-  }
-
-  .banner-down-img-div > img {
+  .banner-blob-left,
+  .banner-blob-right,
+  .banner-img,
+  .brands {
     display: none;
   }
 
-  .banner-down-info {
-    padding-top: 0;
-  }
-  .banner-down-content {
-    padding: 50px 0;
-  }
-
-  .footer-final-row {
-    display: flex;
-    justify-content: center;
-  }
-
-  .privacy,
-  .copyright {
-    display: none;
-  }
-
-  .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
-
-  .social-links img {
-    width: 60px;
-  }
-
+  /* SUPPORT, FAMILY, ANYTIME, PRODUCT SECTIONS */
   .column-content {
     flex-direction: column-reverse;
   }
@@ -229,18 +195,69 @@
     flex-direction: column;
   }
 
+  /* PLANS SECTION */
   .plans-info h2 {
     font-size: 62px;
   }
 
-  .banner-blob-left,
-  .banner-blob-right,
-  .banner-img,
-  .brands {
+  /* BANNER DOWN SECTION */
+  .banner-down-title {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .banner-down-dsc {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+  .banner-down-img-div {
+    justify-content: center;
+  }
+  .banner-down-img-div > img {
+    display: none;
+  }
+  .banner-down-info {
+    padding-top: 0;
+  }
+  .banner-down-content {
+    padding: 50px 0;
+  }
+
+  /* FOOTER */
+  footer .logo-img {
     display: none;
   }
 
-  .banner-section {
-    padding-top: 80px;
+  .footer-final-row {
+    display: flex;
+    justify-content: center;
+  }
+  .privacy,
+  .copyright {
+    display: none;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .social-links img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 424px) {
+  .email-input {
+    padding: 0;
+  }
+}
+
+@media (max-width: 424px) {
+  .footer-form{
+    display: none;
+  }
+  
+  .footer-content {
+    padding-top: 0;
   }
 }

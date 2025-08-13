@@ -221,7 +221,7 @@ section {
 }
 
 .mobile-menu {
-  /* display: none; */
+  display: none;
 }
 
 .burger-request {
@@ -372,7 +372,7 @@ h3 {
 
 .slider-card {
   /* width: 350px; */
-  height: 250px;
+  /* height: 250px; */
   padding-top: 0;
   justify-content: start;
 }
