@@ -469,7 +469,11 @@ h3 {
 
 .banner-down-img-div > img {
   width: 38%;
-  padding-top: 50px;
+  /* padding-top: 50px; */
+}
+
+.banner-down-btn {
+  margin: 40px 0;
 }
 
 .footer-content {
